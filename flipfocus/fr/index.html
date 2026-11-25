@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FlipFocus — Minuteur Pomodoro rétro</title>
+<meta name="description" content="Minuteur Pomodoro rétro">
+<meta property="og:title" content="FlipFocus"><meta property="og:description" content="Minuteur Pomodoro rétro">
+<meta property="og:image" content="../img/og_image.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../img/logo.png">
+<style>
+:root{--p:#f97316;--s:#4f46e5;--bg:#fff;--fg:#111827;--mute:#6b7280;--card:#f3f4f6}
+@media(prefers-color-scheme:dark){:root{--bg:#0b1020;--fg:#e5e7eb;--mute:#9ca3af;--card:#151b2e}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 -apple-system,system-ui,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+.hero{background:linear-gradient(135deg,var(--p),var(--s));color:#fff;text-align:center;padding:64px 16px 72px}
+.hero img.logo{width:96px;height:96px;border-radius:22px;box-shadow:0 10px 30px #0004}
+.hero h1{font-size:clamp(2rem,6vw,3.2rem);margin:.4em 0 .1em}.hero p{font-size:1.2em;opacity:.92;max-width:640px;margin:0 auto 1.6em}
+.btn{display:inline-block;margin:6px;padding:12px 22px;border-radius:999px;background:#fff;color:var(--p);font-weight:700;text-decoration:none}
+.btn.off{opacity:.7}main{max-width:1040px;margin:0 auto;padding:0 16px}
+section{padding:48px 0}h2{font-size:1.6em;margin:0 0 .8em}.about p{max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border-radius:16px;padding:20px}.card h3{margin:0 0 .3em;color:var(--p)}.card p{margin:0;color:var(--mute)}
+.shots{display:flex;gap:16px;overflow-x:auto;padding-bottom:8px;scroll-snap-type:x mandatory}
+.shots img{height:min(560px,70vh);border-radius:18px;scroll-snap-align:start;box-shadow:0 8px 24px #0002}
+footer{text-align:center;color:var(--mute);padding:32px 16px 48px;font-size:.9em}footer a{color:inherit;margin:0 8px}
+.langs{position:absolute;top:12px;right:16px;font-size:.9em}.langs a{color:#fff}
+</style></head>
+<body>
+<header class="hero"><nav class="langs"><a href="../de/">DE</a> · <a href="../en/">EN</a> · <a href="../es/">ES</a> · <b>FR</b> · <a href="../it/">IT</a> · <a href="../ja/">JA</a> · <a href="../pt/">PT</a> · <a href="../zh/">ZH</a></nav>
+  <img class="logo" src="../img/logo.png" alt="">
+  <h1>FlipFocus</h1>
+  <p>Minuteur Pomodoro rétro</p>
+  <div>
+      <span class="btn off">Sur l&#39;App Store · Bientôt disponible</span>
+      <span class="btn off">Sur Google Play · Bientôt disponible</span>
+  </div>
+</header>
+<main>
+  <section class="about"><p>FlipFocus transforme votre minuteur Pomodoro en horloge mécanique à rabats inspirée des années 1970. Chaque chiffre se retourne avec une animation de rabat 3D, accompagnée d&#39;un clic net et d&#39;une légère vibration à chaque changement.</p><p>Choisissez vos cycles : 25&#47;5, 50&#47;10 ou 90&#47;15 minutes. Associez chaque session à une étiquette de concentration, intégrée ou créée par vous, pour toujours savoir sur quoi vous travaillez.</p><p>Le minuteur repose sur l&#39;heure de fin, il reste donc précis même si vous fermez l&#39;application ou verrouillez l&#39;écran. Une notification vous prévient à la fin de chaque cycle.</p></section>
+  <section><h2>Fonctionnalités</h2><div class="grid">
+      <div class="card"><h3>Volets animés en 3D</h3><p>Un volet par chiffre, un clac sonore et une vibration à chaque changement.</p></div>
+      <div class="card"><h3>Minuteur fiable</h3><p>Calé sur l&#39;heure de fin, il continue application fermée ou écran verrouillé et vous prévient à la fin du cycle.</p></div>
+      <div class="card"><h3>Cycles Pomodoro</h3><p>Rythmes 25&#47;5, 50&#47;10 et 90&#47;15, et durées libres avec les fonctions avancées.</p></div>
+      <div class="card"><h3>Tags de focus</h3><p>Associez vos sessions à des tags intégrés ou créés par vous.</p></div>
+      <div class="card"><h3>Statistiques sur papier millimétré</h3><p>Visualisez vos sessions de concentration d&#39;un coup d&#39;œil.</p></div>
+      <div class="card"><h3>Boîtiers d&#39;époque et ambiances</h3><p>Neuf boîtiers rétro et des ambiances sonores pour rester concentré.</p></div>
+  </div></section>
+  <section><h2>Aperçu</h2><div class="shots"><img src="../img/01.png" alt="" loading="lazy"><img src="../img/02.png" alt="" loading="lazy"><img src="../img/03.png" alt="" loading="lazy"><img src="../img/04.png" alt="" loading="lazy"></div></section>
+</main>
+<footer>
+  <a href="privacy.html">Confidentialité</a><a href="terms.html">Conditions d&#39;utilisation</a><a href="support.html">Assistance</a>
+  <a href="mailto:rebytelabs@gmail.com">Contact</a>
+  <p>© 2026 Rebyte Labs</p>
+</footer>
+</body></html>
